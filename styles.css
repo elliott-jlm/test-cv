@@ -133,22 +133,22 @@ h1 {
 
     #rightBlock {
         padding-left: 2rem;
-        font-size: 0.7rem;
+        font-size: 0.5rem;
     }
 
     h1 {
-        font-size: 2.8rem;
+        font-size: 2.5rem;
     }
 
     .h2_right {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
     }
 
     .h3_right {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 
     .thin_text {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 }
