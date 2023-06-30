@@ -2,7 +2,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #252525;
+    background-color: red;
 }
 
 #container {
