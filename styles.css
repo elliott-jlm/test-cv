@@ -1,0 +1,154 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #252525;
+}
+
+#container {
+    width: 210mm;
+    height: 297mm;
+    display: flex;
+}
+
+/* =========== BLOCK DE GAUCHE =========== */
+
+#leftBlock {
+    background-color: white;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+#portrait {
+    width: 100%;
+}
+
+#lb_container {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.h2_left{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.p_left {
+    font-weight: 100;
+    margin-bottom: -1rem;
+}
+
+ul {
+    margin-left: -1.2rem;
+}
+
+/* =========== BLOCK DE DROITE =========== */
+
+#rightBlock {
+    background-color: #9AADA9;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding-left: 2rem;
+    font-size: 0.8rem;
+}
+
+#rightHead{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.rb{
+    margin-top: 0.1rem;
+    margin-bottom: 0.2rem;
+}
+h1 {
+    font-size:3rem;
+    color: #635E86;
+    margin-bottom: -1.5rem;
+}
+
+#age {
+    font-size:1.5rem;
+}
+
+#bachelor {
+    font-size:1.5rem;
+}
+
+#barre {
+    background-color: white;
+    width: 50%;
+    height: 1.5%;
+    margin-top: -0.5rem;
+    margin-bottom: -0.5rem;
+}
+
+.h2_right{
+    color: #635E86;
+    font-size: 1.7rem;
+    font-weight: bolder;
+    margin-top: 0.3rem;
+    margin-bottom: -0.3rem;
+}
+
+.h3_right{
+    font-weight: bolder;
+    font-size: 1rem;
+    margin-bottom: -0.4rem;
+}
+
+.thin_text {
+    font-weight: 100;
+    font-size: 1rem;
+}
+
+/* Media queries pour les iPhones */
+
+@media only screen 
+  and (min-device-width: 375px) {
+    
+    body {
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    #portrait {
+        width: 100%;
+    }
+
+    #rightBlock {
+        padding: 1rem;
+        font-size: 0.6rem;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .h2_right {
+        font-size: 1.5rem;
+    }
+
+    .h3_right {
+        font-size: 0.8rem;
+    }
+
+    .thin_text {
+        font-size: 0.8rem;
+    }
+}
