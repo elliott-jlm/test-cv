@@ -2,7 +2,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: red;
+    background-color: #252525;
 }
 
 #container {
@@ -137,15 +137,15 @@ h1 {
     }
 
     h1 {
-        font-size: 2.3rem;
+        font-size: 2.4rem;
     }
 
     .h2_right {
-        font-size: 1.3rem;
+        font-size: 1.4rem;
     }
 
     .h3_right {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
 
     .thin_text {
